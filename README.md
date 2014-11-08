@@ -34,7 +34,7 @@ To make a link like [Duck Duck Go](http://www.duckduckgo.com): \[Duck Duck Go\]\
 ### 3.2 Internal Links
 To make a target<a name="myTarget"/>: \<a name="myTarget" /\>
 
-To link to that target: \[link text\]\(#myTarget)
+To [link](#myTarget) to that target: \[link text\]\(#myTarget)
 
 ## 4. Code <a name="Code">
 ### 4.1 Inline Code
