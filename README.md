@@ -1,7 +1,7 @@
 # Concise GitHub Markdown Reference
 ==================
 
-Work in progress..
+Refer to [GitHub Help](https://help.github.com/categories/writing-on-github/) for detailed information.
 
 ## Contents
 1. Headings
@@ -29,14 +29,34 @@ Enclose **bold text** in double asterisks: \*\*bold text\*\*
 Escape special characters with a backslash: \\ (For example, write two backslashes to output one backslash)
 
 ## 3. Links
-### 3.1 Internal Links
+### 3.1 External Links
+GitHub makes links of URLs: www.duckduckgo.com
 
-### 3.2 External Links
+To make a linke like [Duck Duck Go](http://www.duckduckgo.com): \[Duck Duck Go\]\(http://www.duckduckgo.com)
 
+### 3.2 Internal Links
+To make a target<a name="myTarget"/>: \<a name="myTarget" /\>
 
-## 4. Code blocks
+To link to that target: \[link text\]\(#myTarget)
 
+## 4. Code
+### 4.1 Inline code
+Enclose `inline code` in backticks: \`inline code\`
+
+### 4.2 Code Blocks
+Enclose code blocks in backticks. Use a keyword for syntax highlighting.
+
+\`\`\`javascript<br>
+if (myAnswer == 42) {<br>
+  Console.log("Now what was that question again?");<br>
+}<br>
+\`\`\`
+
+```javascript
+if (myAnswer == 42) {
+  Console.log("Now what was that question again?");
+}
+```
 
 ## 5. Images
 
-## 6. Tables
