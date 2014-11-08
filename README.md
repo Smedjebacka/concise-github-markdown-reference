@@ -29,7 +29,7 @@ Escape special characters with a backslash: \\ (For example, write two backslash
 ### 3.1 External Links
 GitHub makes links of URLs: www.duckduckgo.com
 
-To make a linke like [Duck Duck Go](http://www.duckduckgo.com): \[Duck Duck Go\]\(http://www.duckduckgo.com)
+To make a link like [Duck Duck Go](http://www.duckduckgo.com): \[Duck Duck Go\]\(http://www.duckduckgo.com)
 
 ### 3.2 Internal Links
 To make a target<a name="myTarget"/>: \<a name="myTarget" /\>
@@ -38,10 +38,10 @@ To link to that target: \[link text\]\(#myTarget)
 
 ## 4. Code <a name="Code">
 ### 4.1 Inline Code
-Enclose `inline code` in backticks: \`inline code\`
+Enclose `inline code` in single backticks: \`inline code\`
 
 ### 4.2 Code Blocks
-Enclose code blocks in backticks. Use a [keyword](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml) for syntax highlighting.
+Enclose code blocks in triple backticks. Use a [keyword](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml) for syntax highlighting.
 
 \`\`\`javascript<br>
 if (myAnswer == 42) {<br>
