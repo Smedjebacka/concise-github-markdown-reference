@@ -66,10 +66,11 @@ Use relative links starting from the project root: /my-folder-in-root/my-file.pn
 ![My image](/images/ohhai.png)
 
 ### 5.2 Image URLs on GitHub Pages \(username\.github\.io)
-Use full URL: 
+Use full URL:
+
+https://raw.githubusercontent.com/username/repositoryName/master/folderName/imageName.png
 
 ![My image](https://raw.githubusercontent.com/Smedjebacka/concise-github-markdown-reference/master/images/ohhai.png)
-
 
 
 
