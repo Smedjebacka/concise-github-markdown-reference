@@ -9,14 +9,14 @@ Refer to [GitHub Help](https://help.github.com/categories/writing-on-github/) fo
 [4. Code](#Code)<br>
 [5. Images](#Images)
 
-## 1. Headings <a name="Headings">
+## 1. Headings <a name="Headings" />
 Put appropriate number of '#' before the heading text.
 
 # H1 ('# H1')
 ## H2 ('## H2')
 ### H3 ('### H3')
 
-## 2. Inline Styles <a name="InlineStyles">
+## 2. Inline Styles <a name="InlineStyles" />
 Enclose `inline code` in backticks: \`inline code\`
 
 Enclose *italicized text* in single asterisks: \*italicized text\*
@@ -25,7 +25,7 @@ Enclose **bold text** in double asterisks: \*\*bold text\*\*
 
 Escape special characters with a backslash: \\ (For example, write two backslashes to output one backslash)
 
-## 3. Links <a name="Links">
+## 3. Links <a name="Links" />
 ### 3.1 External Links
 GitHub makes links of URLs: www.duckduckgo.com
 
@@ -36,7 +36,7 @@ To make a target<a name="myTarget"/>: \<a name="myTarget" /\>
 
 To [link](#myTarget) to that target: \[link text\]\(#myTarget)
 
-## 4. Code <a name="Code">
+## 4. Code <a name="Code" />
 ### 4.1 Inline Code
 Enclose `inline code` in single backticks: \`inline code\`
 
@@ -55,5 +55,20 @@ if (myAnswer == 42) {
 }
 ```
 
-## 5. Images <a name="Images">
+## 5. Images <a name="Images" />
+Place a '!' before the image link: !\[My image title\]\(/images/test.png)
+
+Use PNG, JPEG or GIF images.
+
+### 5.1 Image URLs on github\.com
+Use relative links starting from the project root: /my-folder-in-root/my-file.png
+
+### 5.2 Image URLs on GitHub Pages \(username\.github\.io)
+Use full URL: 
+Not sure if this is best pratice, but it works :)
+
+
+
+
+
 
