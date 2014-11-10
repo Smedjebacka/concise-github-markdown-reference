@@ -63,10 +63,12 @@ Use PNG, JPEG or GIF images.
 ### 5.1 Image URLs on github\.com
 Use relative links starting from the project root: /my-folder-in-root/my-file.png
 
+![My image](/images/ohhai.png)
+
 ### 5.2 Image URLs on GitHub Pages \(username\.github\.io)
 Use full URL: 
-Not sure if this is best pratice, but it works :)
 
+![My image](https://raw.githubusercontent.com/Smedjebacka/concise-github-markdown-reference/master/images/ohhai.png)
 
 
 
