@@ -1,6 +1,6 @@
 # Concise GitHub Markdown Reference
 
-Refer to [GitHub Help](https://help.github.com/categories/writing-on-github/) for detailed information.
+Refer to [GitHub Help](https://help.github.com/categories/writing-on-github/) for detailed information..
 
 ## Contents
 [1. Headings](#Headings)<br>
